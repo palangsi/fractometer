@@ -1,0 +1,10 @@
+body { background: #2c3e50; font-family: sans-serif; display: flex; justify-content: center; padding: 20px; }
+.addiator-container { background: #bdc3c7; padding: 20px; border-radius: 10px; box-shadow: 5px 5px 15px rgba(0,0,0,0.5); width: 400px; text-align: center; }
+.display { background: #ecf0f1; font-size: 24px; padding: 10px; margin-bottom: 20px; border: 2px inset #7f8c8d; }
+.slots-container { display: flex; justify-content: space-around; }
+.column { background: #95a5a6; width: 45%; border-radius: 5px; padding: 10px 0; }
+.fraction-slot { 
+    height: 30px; margin: 5px; background: #7f8c8d; color: white; 
+    cursor: pointer; line-height: 30px; border-radius: 3px; transition: 0.2s;
+}
+.fraction-slot:hover { background: #e67e22; }
